@@ -1,0 +1,12 @@
+void fizzbuzz(int num){
+	if(num%15 == 0){
+	if(num%3 == 0){
+		printf("fizz");
+	}
+	if(num%5 == 0){
+		printf("buzz");
+	}
+	}else{
+		printf("%d",num);
+	}
+}
